@@ -1,5 +1,5 @@
 # aws-ec2-vulnerable-lab2
-![EC2 Vulnerable Lab](ec2-lab2)
+![EC2 Vulnerable Lab](ec2-lab2.png)
 
 A vulnerable AWS EC2 lab with exploitation and mitigation techniques
 \# AWS EC2 Vulnerable Lab
