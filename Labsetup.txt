@@ -1,0 +1,12 @@
+Log in to AWS: Sign in to your AWS Management Console.
+Navigate to EC2: In the AWS Console, find and select EC2 under the "Services" menu.
+Launch a New Instance:
+Click on Launch Instance.
+Select an Ubuntu Server 20.04 LTS image (Amazon Machine Image – AMI).
+Choose an instance type: Select t2.micro, which is eligible for the Free Tier.
+Configure instance details: Use the default settings, but ensure you are setting the network to a VPC with a public subnet.
+Storage: Set the storage to the default size (8GB) or adjust as needed.
+Security Group: Create a new security group or modify the default to allow:
+SSH (port 22) for remote login.
+HTTP (port 80) to allow web traffic for hosting a vulnerable service.
+Launch the instance and select or create a new key pair. Save the key file (.pem) for SSH access
